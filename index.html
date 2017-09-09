@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Color Game</title>
+    <link rel="stylesheet" href="style.css">
+    <script
+  src="https://code.jquery.com/jquery-3.2.1.js"
+  integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+  crossorigin="anonymous"></script>
+  </head>
+  <body>
+      <h1>The Great <br><span id="colorDisplay">RGB(<span id="R">R</span>, <span id="G">G</span>, <span id="B">B</span>)</span><br> Guessing Game</h1>
+    <div class="bar">
+      <div class="insideBar">
+        <button class="newColors">New Colors</button>
+        <span class="result"></span>
+        <button class="difficulty" id="easy">Easy</button>
+        <button class="selected" id="hard">Hard</button>
+      </div>
+    </div>
+    <div class="colors">
+      <div class="color" id="0"></div>
+      <div class="color" id="1"></div>
+      <div class="color" id="2"></div>
+      <div class="color" id="3"></div>
+      <div class="color" id="4"></div>
+      <div class="color" id="5"></div>
+    </div>
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>
